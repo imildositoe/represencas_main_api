@@ -1,53 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca515f0f-8d05-44bb-a839-a0938b4f7adc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ca515f0f-8d05-44bb-a839-a0938b4f7adc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.rnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DataDaTurmaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DataHistoricaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NotificacaoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SessaoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notificacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Sessao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/912019_11_19_211650_create_alocacaos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/922019_11_19_211817_create_aulas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/represencas_api_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/represencas_api_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AlocacaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AlocacaoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AulaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AulaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CursoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CursoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DisciplinaCursoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DisciplinaCursoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocenteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocenteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EstudanteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EstudanteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InscricaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InscricaoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MarcacaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MarcacaoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_192401_create_estudantes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/72019_11_19_192401_create_estudantes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211206_create_docentes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/62019_11_19_211206_create_docentes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211514_create_inscricaos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/92019_11_19_211514_create_inscricaos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211541_create_regimes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/52019_11_19_211541_create_regimes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211608_create_cursos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/12019_11_19_211608_create_cursos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211631_create_disciplina_cursos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/82019_11_19_211631_create_disciplina_cursos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211650_create_alocacaos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211718_create_disciplinas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/22019_11_19_211718_create_disciplinas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211740_create_nivels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/42019_11_19_211740_create_nivels_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211759_create_tipo_aulas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/902019_11_19_211759_create_tipo_aulas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211817_create_aulas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_16_154811_sessao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211832_create_salas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/32019_11_19_211832_create_salas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_19_211851_create_marcacaos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/932019_11_19_211851_create_marcacaos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstudanteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_19_192401_create_estudantes_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_11_19_192401_create_estudantes_table.php" />
-      </list>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
     </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="represencas_api@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="represencas_api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="represencas_api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="represencas_api: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,91 +180,93 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="235" />
-    <option name="y" value="19" />
-    <option name="width" value="687" />
-    <option name="height" value="534" />
+  <component name="ProjectId" id="1VDKFlv7vSXlodVVOlx6KOCUCzR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="represencas_api_" type="b2602c69:ProjectViewProjectNode" />
-              <item name="represencas_api_" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Imildo Sitoe\OneDrive\Trabalho de Conclusao do Curso - Represencas\Web Project\represencas_api_\app" />
+      <recent name="C:\Users\Imildo Sitoe\OneDrive\Trabalho de Conclusao do Curso - Represencas\Web Project\represencas_api_\app\Http\Controllers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.17942768" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:represencas_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:represencas_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@649c3bec" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:represencas_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5e50ffa7" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:represencas_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2de2816e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:represencas_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@360404fa" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -232,72 +278,147 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574179534128</updated>
-      <workItem from="1574179536227" duration="5564000" />
+      <workItem from="1574179536227" duration="7937000" />
+      <workItem from="1574230096314" duration="11298000" />
+      <workItem from="1576782130552" duration="810000" />
+      <workItem from="1576978416390" duration="6889000" />
+      <workItem from="1577114348418" duration="1893000" />
+      <workItem from="1577196456496" duration="568000" />
+      <workItem from="1577221308658" duration="6770000" />
+      <workItem from="1577372840198" duration="1405000" />
+      <workItem from="1578019926492" duration="1190000" />
+      <workItem from="1578037838184" duration="1253000" />
+      <workItem from="1578067746530" duration="5566000" />
+      <workItem from="1578097434312" duration="2258000" />
+      <workItem from="1578161219844" duration="16789000" />
+      <workItem from="1578603070625" duration="816000" />
+      <workItem from="1578719312224" duration="3275000" />
+      <workItem from="1579209184693" duration="166000" />
+      <workItem from="1579213121832" duration="2443000" />
+      <workItem from="1579223968117" duration="2525000" />
+      <workItem from="1579277805657" duration="3567000" />
+      <workItem from="1579329876879" duration="14129000" />
+      <workItem from="1579405783656" duration="6417000" />
+      <workItem from="1579458632527" duration="6234000" />
+      <workItem from="1579544910137" duration="1902000" />
+      <workItem from="1579639566364" duration="651000" />
+      <workItem from="1579658664339" duration="736000" />
+      <workItem from="1579799156957" duration="2390000" />
+      <workItem from="1579934313910" duration="589000" />
+      <workItem from="1580023633901" duration="1198000" />
+      <workItem from="1580165782439" duration="10212000" />
+      <workItem from="1580335443600" duration="704000" />
+      <workItem from="1580595625089" duration="3219000" />
+      <workItem from="1580696813776" duration="12278000" />
+      <workItem from="1580855832559" duration="1008000" />
+      <workItem from="1580959907680" duration="1990000" />
+      <workItem from="1581025704356" duration="1424000" />
+      <workItem from="1581143158030" duration="2489000" />
+      <workItem from="1581357081733" duration="1619000" />
+      <workItem from="1581441845031" duration="4968000" />
+      <workItem from="1581472686380" duration="672000" />
+      <workItem from="1581527743749" duration="1543000" />
+      <workItem from="1581614755415" duration="6614000" />
+      <workItem from="1581657262374" duration="5496000" />
+      <workItem from="1581734888900" duration="643000" />
+      <workItem from="1581822681450" duration="11969000" />
+      <workItem from="1581960891952" duration="19567000" />
+      <workItem from="1582516372820" duration="6592000" />
+      <workItem from="1582675991503" duration="4329000" />
+      <workItem from="1582878644311" duration="366000" />
+      <workItem from="1582907005369" duration="3456000" />
+      <workItem from="1583426227284" duration="8870000" />
+      <workItem from="1583511209269" duration="5312000" />
+      <workItem from="1583555405618" duration="1804000" />
+      <workItem from="1583656215475" duration="10819000" />
+      <workItem from="1583858137036" duration="5242000" />
+      <workItem from="1584024769149" duration="1166000" />
+      <workItem from="1584306485173" duration="844000" />
+      <workItem from="1584326528549" duration="1497000" />
+      <workItem from="1584817786272" duration="2059000" />
+      <workItem from="1585181677143" duration="2916000" />
+      <workItem from="1585430474186" duration="1308000" />
+      <workItem from="1585461326213" duration="1380000" />
+      <workItem from="1585523923711" duration="1555000" />
+      <workItem from="1585604232627" duration="11057000" />
+      <workItem from="1585794761124" duration="7729000" />
+      <workItem from="1585827889344" duration="3630000" />
+      <workItem from="1585915034855" duration="1338000" />
+      <workItem from="1585937982404" duration="6807000" />
+      <workItem from="1586132997503" duration="1782000" />
+      <workItem from="1586265250763" duration="3376000" />
+      <workItem from="1586363747080" duration="12316000" />
+      <workItem from="1586545131672" duration="19245000" />
+      <workItem from="1586798797883" duration="9845000" />
+      <workItem from="1586972845657" duration="2851000" />
+      <workItem from="1587326750776" duration="1206000" />
+      <workItem from="1587399882121" duration="12085000" />
+      <workItem from="1587488646663" duration="4123000" />
+      <workItem from="1587581455506" duration="5820000" />
+      <workItem from="1587740148827" duration="471000" />
+      <workItem from="1587749446582" duration="3300000" />
+      <workItem from="1587830781242" duration="3938000" />
+      <workItem from="1587981160050" duration="3690000" />
+      <workItem from="1588440763468" duration="434000" />
+      <workItem from="1588441286060" duration="30895000" />
+      <workItem from="1588688999695" duration="1760000" />
+      <workItem from="1588876820886" duration="7997000" />
+      <workItem from="1589024728574" duration="963000" />
+      <workItem from="1589484839059" duration="571000" />
+      <workItem from="1589565802816" duration="12779000" />
+      <workItem from="1589967794245" duration="589000" />
+      <workItem from="1589979516469" duration="578000" />
+      <workItem from="1590344664213" duration="7292000" />
+      <workItem from="1590844900783" duration="571000" />
+      <workItem from="1592942626582" duration="593000" />
+      <workItem from="1616525294317" duration="581000" />
+      <workItem from="1619206956785" duration="1212000" />
+      <workItem from="1619727118047" duration="578000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5564000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="19" width="1366" height="712" extended-state="6" />
-    <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28710645" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.208981" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstudanteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Estudante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_19_192401_create_estudantes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="127" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582523997046">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="127" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582523997046" />
+    <state width="1060" height="164" key="GridCell.Tab.0.bottom" timestamp="1589635781877">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1060" height="164" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589635781877" />
+    <state width="1060" height="164" key="GridCell.Tab.0.center" timestamp="1589635781876">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1060" height="164" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589635781876" />
+    <state width="1060" height="164" key="GridCell.Tab.0.left" timestamp="1589635781875">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1060" height="164" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589635781875" />
+    <state width="1060" height="164" key="GridCell.Tab.0.right" timestamp="1589635781876">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1060" height="164" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589635781876" />
+    <state x="136" y="19" key="SettingsEditor" timestamp="1584369372437">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="136" y="19" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584369372437" />
+    <state x="392" y="28" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587950140213">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="392" y="28" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1587950140213" />
+    <state x="339" y="171" key="run.anything.popup" timestamp="1586778464327">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="171" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1586778464327" />
+    <state x="346" y="52" width="672" height="716" key="search.everywhere.popup" timestamp="1588541252862">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="52" width="672" height="716" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588541252862" />
   </component>
 </project>

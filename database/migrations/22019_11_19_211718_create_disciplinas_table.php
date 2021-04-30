@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateNivelsTable extends Migration
+class CreateDisciplinasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,10 @@ class CreateNivelsTable extends Migration
      */
     public function up()
     {
-        Schema::create('nivels', function (Blueprint $table) {
-            $table->bigIncrements('id');
+        Schema::create('disciplinas', function (Blueprint $table) {
+            $table->increments('id_disciplina');
+            $table->string('designacao');
+            $table->string('sigla');
             $table->timestamps();
         });
     }
@@ -26,6 +28,6 @@ class CreateNivelsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('nivels');
+        Schema::dropIfExists('disciplinas');
     }
 }

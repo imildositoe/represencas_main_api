@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTipoAulasTable extends Migration
+class CreateRegimesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class CreateTipoAulasTable extends Migration
      */
     public function up()
     {
-        Schema::create('tipo_aulas', function (Blueprint $table) {
-            $table->bigIncrements('id');
+        Schema::create('regimes', function (Blueprint $table) {
+            $table->increments('id_regime');
+            $table->string('designacao');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateTipoAulasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tipo_aulas');
+        Schema::dropIfExists('regimes');
     }
 }

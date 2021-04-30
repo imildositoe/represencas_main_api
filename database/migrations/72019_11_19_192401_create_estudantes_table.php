@@ -18,15 +18,11 @@ class CreateEstudantesTable extends Migration
             $table->string('apelido');
             $table->string('nome');
             $table->string('nr_estudante');
-            $table->string('url_foto');
+            $table->string('url_foto')->nullable(true);
             $table->string('email');
             $table->string('senha');
-
-//            $table->integer('id_user')->unsigned();
-//            $table->integer('id_area_cientifica')->unsigned();
-//            $table->foreign('id_area_cientifica')->references('id_area_cientifica')->on('areas_cientificas');
-//            $table->foreign('id_user')->references('id')->on('users');
-
+            $table->integer('id_curso')->unsigned();
+            $table->foreign('id_curso')->references('id_curso')->on('cursos');
             $table->timestamps();
         });
     }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAlocacaosTable extends Migration
+class CreateDocentesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class CreateAlocacaosTable extends Migration
      */
     public function up()
     {
-        Schema::create('alocacaos', function (Blueprint $table) {
-            $table->bigIncrements('id');
+        Schema::create('docentes', function (Blueprint $table) {
+            $table->increments('id_docente');
+            $table->string('nome');
+            $table->string('url_foto');
+            $table->string('email');
+            $table->string('senha');
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreateAlocacaosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('alocacaos');
+        Schema::dropIfExists('docentes');
     }
 }

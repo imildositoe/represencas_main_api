@@ -14,7 +14,12 @@ class CreateMarcacaosTable extends Migration
     public function up()
     {
         Schema::create('marcacaos', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id_marcacao');
+            $table->boolean('is_presente');
+            $table->integer('id_inscricao')->unsigned();
+            $table->integer('id_aula')->unsigned();
+            $table->foreign('id_inscricao')->references('id_inscricao')->on('inscricaos');
+            $table->foreign('id_aula')->references('id_aula')->on('aulas');
             $table->timestamps();
         });
     }

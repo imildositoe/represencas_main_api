@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Docente;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class DocenteController extends Controller
 {
@@ -15,6 +16,21 @@ class DocenteController extends Controller
     public function index()
     {
         //
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getDocente(Request $request)
+    {
+        $email = $request->get('email');
+        $senha = $request->get('senha');
+        echo "\n \n";
+        $docente = DB::select("SELECT * FROM docentes WHERE email=$email AND senha=$senha");
+        return response()->json(['docente' => $docente], 200);
     }
 
     /**
